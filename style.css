@@ -13,6 +13,21 @@ body {
   body, h1, h2, h3, h4, h5, h6, p, a, button {
     color: #fff;
   }
+
+  h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 0.75rem;
+  }
+  
   
   /* Set styles for the header */
    header {
@@ -139,6 +154,15 @@ body {
     background-color: #1a1a1a;
     color: #fff;
   }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+  }
+
   
   /* Set styles for the footer */
   footer {
@@ -150,6 +174,81 @@ body {
     align-items: center;
     flex-wrap: wrap;
   }
+
+
+
+  .cart-empty {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+  }
+  
+  .card-body {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+  }
+  .checkout {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .total-amount {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .btn-checkout {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .btn-checkout:hover {
+    background-color: #218838;
+  }
+  
+  .table {
+    margin-top: 50px;
+  }
+  
+  thead {
+    background-color: #212529;
+    color: #fff;
+  }
+  
+  th {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  td {
+    font-size: 16px;
+  }
+  
+  .subtotal {
+    font-weight: bold;
+  }
+  
+  .qty-input {
+    width: 60px;
+    text-align: center;
+  }
+  
+  .remove-item {
+    color: #dc3545;
+    cursor: pointer;
+  }
+  
+  .remove-item:hover {
+    text-decoration: underline;
+  }
+  
 
   @keyframes slideIn {
     0% {
