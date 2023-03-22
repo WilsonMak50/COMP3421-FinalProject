@@ -1,265 +1,291 @@
 /* Set default font family and size */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-  }
-  
-  /* Set dark background color for the page */
-  body {
-    background-color: #292929;
-  }
-  
-  /* Set white text color for the page */
-  body, h1, h2, h3, h4, h5, h6, p, a, button {
-    color: #fff;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
 
-  h4 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 1rem;
-  }
-  
-  h5 {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #555;
-    margin-bottom: 0.75rem;
-  }
-  
-  
-  /* Set styles for the header */
-   header {
-    /* display: flex;*/
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px; 
-    background-color: #343a40;
-    box-shadow: 0px 2px 5px #00000040;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 32px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
+/* Set dark background color for the page */
+body {
+  background-color: #292929;
+}
 
-  .jumbotron {
-    background-image: url('/img/home.webp');
-    height: 500px; /* Change this value to adjust the height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  h1.display-4 {
-    animation-name: slideIn;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-  }
-  /* Set styles for the hero section */
-  .hero {
-    background-image: url("https://images.unsplash.com/photo-1603966020567-14046a0b07bf");
-    /* background-position: center; */
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero h1 {
-    font-size: 48px;
-    margin: 0;
-    
-  }
-  
-  .hero p {
-    font-size: 24px;
-    margin: 20px 0;
-  }
-  
-  /* Set styles for the cards */
-  .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 300px;
-    height: 400px;
-    margin: 20px;
-    background-color: #1a1a1a;
-    color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .card img {
-    width: 80%;
-    height: auto;
-    margin-top: 20px;
-  }
-  
-  .card h2 {
-    font-size: 24px;
-    margin: 20px 0 10px;
-  }
-  
-  .card p {
-    font-size: 18px;
-    margin: 0;
-  }
-  
-  .card button {
-    background-color: #fff;
-    color: #1a1a1a;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 20px 0;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .card button:hover {
-    background-color: #1a1a1a;
-    color: #fff;
-  }
+/* Set white text color for the page */
+body, h1, h2, h3, h4, h5, h6, p, a, button {
+  color: #fff;
+}
 
-  .card-img-top {
-    height: 200px;
-    object-fit: cover;
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-  }
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
 
-  
-  /* Set styles for the footer */
-  footer {
-    background-color: #1a1a1a;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+h6{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
 
+/* Set styles for the header */
+ header {
+  /* display: flex;*/
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  background-color: #343a40;
+  box-shadow: 0px 2px 5px #00000040;
+}
 
-  .cart-empty {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 24px;
-  }
-  
-  .card-body {
-    height: 100%;
-    width: 100%;
-    overflow-y: auto;
-  }
-  .checkout {
-    text-align: right;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
-  .total-amount {
-    text-align: right;
-    margin-top: 20px;
-    font-size: 24px;
-  }
-  
-  .btn-checkout {
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-  }
-  
-  .btn-checkout:hover {
-    background-color: #218838;
-  }
-  
-  .table {
-    margin-top: 50px;
-  }
-  
-  thead {
-    background-color: #212529;
-    color: #fff;
-  }
-  
-  th {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  td {
-    font-size: 16px;
-  }
-  
-  .subtotal {
-    font-weight: bold;
-  }
-  
-  .qty-input {
-    width: 60px;
-    text-align: center;
-  }
-  
-  .remove-item {
-    color: #dc3545;
-    cursor: pointer;
-  }
-  
-  .remove-item:hover {
-    text-decoration: underline;
-  }
-  
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
 
-  @keyframes slideIn {
-    0% {
-      transform: translateY(-50%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.jumbotron {
+  background-image: url('/img/home.webp');
+  height: 500px; /* Change this value to adjust the height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1.display-4 {
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+/* Set styles for the hero section */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1603966020567-14046a0b07bf");
+  /* background-position: center; */
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+  
+}
+
+.hero p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Set styles for the cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 80%;
+  height: auto;
+  margin-top: 20px;
+  
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+.card p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card button {
+  background-color: #fff;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card button:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  display:block; 
+  margin:auto;
+}
+
+
+/* Set styles for the footer */
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.cart-empty {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.card-body {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+.checkout {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.total-amount {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.btn-checkout {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.btn-checkout:hover {
+  background-color: #218838;
+}
+
+.table {
+  margin-top: 50px;
+}
+
+thead {
+  background-color: #212529;
+  color: #fff;
+}
+
+th {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+td {
+  font-size: 16px;
+}
+
+.subtotal {
+  font-weight: bold;
+}
+
+.qty-input {
+  width: 60px;
+  text-align: center;
+}
+
+.remove-item {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.remove-item:hover {
+  text-decoration: underline;
+}
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
   }
-  
-  
- 
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin:auto;
+  width:70%;
+}
+
+.btncenter{
+
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
