@@ -3,7 +3,7 @@
 
 #connect to database
 function connect(){
-return $con=mysqli_connect("localhost","root","root","COMP3521");
+return mysqli_connect("localhost","root","root","COMP3521");
 
 /*
 #test the connection is successful or not
