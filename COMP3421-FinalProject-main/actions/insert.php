@@ -34,5 +34,10 @@ if($_SERVER['HTTP_REFERER'] == 'http://localhost:8888/shop.php'){
     window.location="../shop.php";
     </script>';
 }
+    echo '<script> 
+    alert("Add to cart successful!");
+    window.location="../shop.php";
+    </script>';
+
 }
 ?>

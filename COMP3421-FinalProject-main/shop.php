@@ -38,18 +38,18 @@
             for($i=0;$i<count($product);$i++){?>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        <img class="card-img-top" src="./images/<?php echo $product[$i]['product_picture'];?>" width="500"  alt="device's picture">
+                        <img class="card-img-top" src="./prod-img/<?php echo $product[$i]['product_picture'];?>" width="500"  alt="device's picture">
                         <div class="card-body">
                             <h4 class="card-title">
-                                <a href="#">
-                                    <?php echo $product[$i]['product_name'];?>
-                                </a>
+                                <form action="description.php" method="GET">
+                                    <button class='btn btn-primary btn-lg btn-block' type='submit' name='product_id' value='<?php echo $product[$i]['product_id'] ?>'> <?php echo $product[$i]['product_name'];?></a>
+                                </form>
                             </h4>
                             <h5>
-                                <?php echo $product[$i]['product_price'];?>
+                                $<?php echo $product[$i]['product_price'];?>
                             </h5>
                             <p class="card-text">
-                                <?php echo $product[$i]['product_description'];?>
+                                <!-- <?php echo $product[$i]['product_description'];?>-->
                             </p>
                             <?php for($j=0;$j<5;$j++){
                                 if($j<$product[$i]['product_rate']){ ?>
@@ -68,12 +68,12 @@
         </div>
         </div>
     </body>
+    <br><br><br><br><br>
     <footer id="Footer"></footer>
 </html>
 
 
 <script src="header.js"></script>
-
         
             
     
